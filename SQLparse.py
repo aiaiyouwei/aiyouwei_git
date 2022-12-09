@@ -16,9 +16,9 @@ if __name__ == '__main__':
         for tokend in s3:
             print(tokend.ttype, tokend.value)
 
-        #s4 = s1[0]._pprint_tree()
+        s4 = s1[0]._pprint_tree()
         print("~~~~~~~~~~~~~~~~~")
-        #print(s4)
+        print(s4)
         #s5 = sqlparse.sql.Where(tokend)
         s6 = s1[0].get_type()
 
